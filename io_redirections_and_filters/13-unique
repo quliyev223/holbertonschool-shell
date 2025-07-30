@@ -1,2 +1,2 @@
 #!/bin/bash
-uniq -u input output
+sort | uniq -u
