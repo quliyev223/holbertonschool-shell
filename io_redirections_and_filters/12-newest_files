@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -mtime | head -n 10 | sort 
+ls -tp | grep -v / | head -10
